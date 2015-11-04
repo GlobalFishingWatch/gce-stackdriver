@@ -8,7 +8,7 @@ Provide a pip installable module that genericaly supports creating, writing and 
 https://cloud.google.com/monitoring/custom-metrics/using-custom-metrics
 https://cloud.google.com/monitoring/demos/wrap_write_labeled_metric
 
-- Accumulate metrics and write in a batch to stay withing google API rate limits
+- Accumulate metrics and write in a batch to stay within google API rate limits
 - Write asynchronously so that Google API latency does not block a running task
 - Provide a context manager interface 
 - read custom metric definitions from a config file
